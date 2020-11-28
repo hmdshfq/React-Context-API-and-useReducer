@@ -1,10 +1,10 @@
 import Child from "./Child";
 
-function Parent(props) {
+function Parent() {
   return (
     <div>
       <h2>Parent</h2>
-      <Child num={props.num} />
+      <Child />
     </div>
   );
 }
