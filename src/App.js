@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import context from "./Context";
 import Parent from "./Parent";
 
 function App() {
-  let valueForContext = 50;
+  let valueForContext = useState(50);
   return (
     /*//////////////////////////////////////////////////////////////////////
     // If you don't wrap the context provider around the components then the 

@@ -5,7 +5,8 @@ function Child() {
   let value = useContext(context);
   return (
     <div>
-      <p>The number in child is {value}</p>
+      <p>The number in child is {value[0]}</p>
+      <button onClick={()=>{value[1](++value[0])}}>Update Value</button>
     </div>
   );
 }
