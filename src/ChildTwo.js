@@ -6,6 +6,20 @@ function ChildTwo() {
   return (
     <div>
       <p>The number in child two {state}</p>
+      <button
+        onClick={() => {
+          dispatch({ type: "INCREMENT" });
+        }}
+      >
+        Increment
+      </button>
+      <button
+        onClick={() => {
+          dispatch({ type: "DECREMENT" });
+        }}
+      >
+        Decrement
+      </button>
     </div>
   );
 }
