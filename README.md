@@ -1,3 +1,7 @@
+# React-Context-API-and-useReducer
+
+In this project I will learn React's Context API and useReducer hook
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
